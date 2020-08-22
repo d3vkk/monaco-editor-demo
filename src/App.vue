@@ -1,19 +1,28 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <MonacoEditor class="editor" v-model="code" language="javascript" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import MonacoEditor from "vue-monaco";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    MonacoEditor,
+  },
+  data() {
+    return {
+      code: "console.log('Hello World!')",
+    };
+  },
+};
 </script>
 
 <style>
+.editor {
+  width: 1000px;
+  height: 800px;
+}
 </style>
