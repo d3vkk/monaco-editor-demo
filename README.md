@@ -1,21 +1,18 @@
-# monaco-editor
+# Monaco Editor Demo
 
-> A Vue.js project
+![Screenshot](https://github.com/d3vkk/monaco-editor-demo/blob/master/screenshot.png)
 
-## Build Setup
+Monaco Editor Demo using Vue Monaco
 
-``` bash
-# install dependencies
-npm install
+[Vue Monaco](https://github.com/egoist/vue-monaco)
 
-# serve with hot reload at localhost:8080
-npm run dev
+[Monaco Editor Docs](https://microsoft.github.io/monaco-editor/index.html)
 
-# build for production with minification
-npm run build
+[Monaco Editor Repo](https://github.com/Microsoft/monaco-editor)
 
-# build for production and view the bundle analyzer report
-npm run build --report
+Fork or clone this repo
+```
+git clone https://github.com/d3vkk/monaco-editor-demo.git
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+© 2020 Donald K • Under MIT License
